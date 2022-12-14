@@ -29,6 +29,9 @@ public class actionClassUse
 		
 		WebElement movetoele = driver.findElement(By.xpath("//a[text()=' LOAN ']"));
 		Thread.sleep(1000);
+		
+		
+		
 		act.moveToElement(movetoele).perform();
 		Thread.sleep(1000);
 		
