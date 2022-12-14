@@ -27,6 +27,12 @@ public class actionClassUse
 		// 2 to find the one of the action class method an perform the action
 		Thread.sleep(1000);
 		
+		
+		
+		
+		
+		
+		
 		WebElement movetoele = driver.findElement(By.xpath("//a[text()=' LOAN ']"));
 		Thread.sleep(1000);
 		
